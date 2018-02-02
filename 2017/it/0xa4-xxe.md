@@ -28,7 +28,7 @@ Un percorso di formazione degli sviluppatori è essenziale per poter identificar
 
 Se questi controlli non dovessero essere possibili, prendere in considerazione l'ipotesi di effettuare un [virtual patching](https://www.owasp.org/index.php/Virtual_Patching_Best_Practices) o di introdurre degli API security gateways o dei Web Application Firewalls (WAFs) per individuare, monitorare e bloccare attacchi di tipo XXE.
 
-## Esempi di Scenari di Attacco
+## Scenari di Attacco
 
 Sono state scoperte numerose problematiche di tipo XXE, compresi attacchi verso dispositivi embedded. Gli attacchi XXE sono possibili in molti posti insospettabili, come all'interno di dipendenze innestate molto in profondità. Il modo più semplice è di effettuare l'upload di un XML maligno che, se accettato, permette all'attaccante di:
 
